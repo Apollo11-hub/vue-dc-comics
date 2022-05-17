@@ -7,19 +7,19 @@
         <span>digital comics</span>
       </li>
       <li>
-        <img src="../assets/vue-dc-comics-1/img/buy-comics-digital-comics.png" alt="">
+        <img src="../assets/vue-dc-comics-1/img/buy-comics-merchandise.png" alt="">
         <span>digital comics</span>
       </li>
       <li>
-        <img src="../assets/vue-dc-comics-1/img/buy-comics-digital-comics.png" alt="">
+        <img src="../assets/vue-dc-comics-1/img/buy-comics-shop-locator.png" alt="">
         <span>digital comics</span>
       </li>
       <li>
-        <img src="../assets/vue-dc-comics-1/img/buy-comics-digital-comics.png" alt="">
+        <img src="../assets/vue-dc-comics-1/img/buy-comics-subscriptions.png" alt="">
         <span>digital comics</span>
       </li>
       <li>
-        <img src="../assets/vue-dc-comics-1/img/buy-comics-digital-comics.png" alt="">
+        <img src="../assets/vue-dc-comics-1/img/buy-dc-power-visa.svg" alt="">
         <span>digital comics</span>
       </li>
     </ul>

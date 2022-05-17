@@ -1,9 +1,9 @@
 <template>
   <section>
     <div class="image-container">
-        <img src="https://www.dccomics.com/sites/default/files/styles/covers192x291/public/comic-covers/2020/08/cover-v2_5f40314645a734.37285065.png?itok=ImNM2QBY" alt="comic.series">
+        <img :src="comic.thumb" :alt="comic.series">
     </div>
-    <p>Action</p> 
+    <p>{{comic.series}}</p> 
 
   </section>
 
@@ -22,15 +22,11 @@ export default {
 @import "../assets/style/utils";
 @import "../assets/style/mixins";
 @import "../assets/style/vars";
-  section{
-    display: flex;
-    flex-wrap:wrap ;
     div{
       width: 200px;
-      height: 250px;
       margin:20px 20px 30px 0;
       .image-container{
-        height: 80%;
+        height: 60%;
         overflow: hidden;
         img{
           width: 100%;
@@ -39,11 +35,11 @@ export default {
       p{
         display: flex;
         align-items: center;
-        height: 20%;
-        font-size: 18px;
+        width: 200px;
+
         text-transform:uppercase;
         color: white;
       }
     }
-  }
+
 </style>
